@@ -296,6 +296,7 @@ footer{
     text-decoration: none;
     text-transform: uppercase;
     margin-top: 20px;
+    padding-left: 10px
 }
 
 @media only screen and (max-width: 768px) {
@@ -379,6 +380,7 @@ footer{
 
     .inner-context{
         width: 300px;
+        margin: 0 auto;
     }
 
     .lanes{
