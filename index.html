@@ -10,8 +10,25 @@
 <body>
     <div id="app">
         <header>
-            <div><p>Didi</p></div>
-            <button type="button" class="menu-toggle"></button>
+            <nav class="navbar">
+                <a href="#" class="nav-logo">Didi.</a>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="https://futaxted.netlify.app/" class="nav-link">My Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://didiola.substack.com/" class="nav-link">My articles</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">My Resume</a>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
         </header>
         <main>
             <section class="first">
@@ -69,13 +86,13 @@
                         <div class="lane1">
                             <h1>I build Stuff</h1>
                             <p>Volunteer and open source projects</p>
-                            <a href="#" class="sauce-button">See my work</a>
+                            <a href="https://futaxted.netlify.app/" class="sauce-button">See my work</a>
                         </div>
                         <hr>
                         <div class="lane2">
                             <h1>I write sometimes</h1>
                             <p>Some of my thoughts about learning and life</p>
-                            <a href="#" class="sauce-button">Read my articles</a>
+                            <a href="https://didiola.substack.com/" class="sauce-button">Read my articles</a>
                         </div>
                     </div>
                 </div>
@@ -117,9 +134,9 @@
             <div class="footer-content">
                 <div class="footer-main">
                     <ul>
-                        <li>My Work</li>
-                        <li>My Articles</li>
-                        <li>My Resume</li>
+                        <li><a href="https://futaxted.netlify.app/">My Work</a></li>
+                        <li><a href="https://didiola.substack.com/">My Articles</a></li>
+                        <li><a href="#">My Resume</a></li>
                     </ul>
                 </div>
                 <br>
@@ -137,5 +154,6 @@
             </div>
         </footer>
     </div>
+    <script src="/script.js"></script>
 </body>
 </html>
